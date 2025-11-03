@@ -10,6 +10,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   background-blend-mode: overlay;
+  backdrop-filter: blur(6px);
   color: #f5d76e;
   display: flex;
   justify-content: center;
@@ -19,13 +20,6 @@ body {
 
 .card {
   text-align: center;
-  padding: 2rem;
-  max-width: 1000px;
-  background: rgba(255, 255, 255, 0.08);
-  border-radius: 22px;
-  box-shadow: 0 0 35px rgba(0, 10, 30, 0.7);
-  backdrop-filter: blur(6px);
-  border: 1px solid rgba(255, 239, 161, 0.15);
 }
 
 .title {
